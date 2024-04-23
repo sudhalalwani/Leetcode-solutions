@@ -1,15 +1,21 @@
 import java.util.*;
 class Testing{
+
+    /*Array
+    1. Array when declared inside main function contains garbage value and when declared before main function i.e. declared globally contais zeroes.
+    2. Max size of array which can be declared inside main fuction is 10^6 and if declared globally can be 10^7
+    3. each index of an array is stored in computers memory at a random memory location. if the 0th index is stored at x location and 1st index will be stored at x+1 memory address. 
+    */
     public static void main(String[] args){
-        ArrayList();     // dynamic array
+        //ArrayList();     // dynamic array
         LinkedList();    // dynamic array doubley linkedList. Can add and remove from any index.
-        Stack();         // LIFO,                    
-        Queue();         // FIFO,     
-        HashSet();       // List of elements
-        HashMap();       // Key Value pair 
-        TreeSet();       // List of elements
-        TreeMap();       // Key Value pair
-        PriorityQueue(); // keeps elements with priority, by default it takes smallest element as highest priority, uses heap to store elements. 
+        //Stack();         // LIFO,                    
+        //Queue();         // FIFO,     
+        //HashSet();       // List of elements
+        //HashMap();       // Key Value pair 
+        //TreeSet();       // List of elements
+        //TreeMap();       // Key Value pair
+        //PriorityQueue(); // keeps elements with priority, by default it takes smallest element as highest priority, uses heap to store elements. 
 
 
         // ArrayList();     Duplicates:YES, Maintains order of Insertion: YES, Sorted:NO
@@ -63,10 +69,10 @@ class Testing{
     }
     public static void HashSet(){
         Set<String> set = new HashSet<>();
-        set.add("geeks"); 
-        set.add("practice"); 
-        set.add("contribute"); 
-        set.add("ide"); 
+        set.add("Sudha"); 
+        set.add("Sudha"); 
+        set.add("Lalwani"); 
+        set.add("Lalwani"); 
         System.out.println(set);
     }
     public static void HashMap(){

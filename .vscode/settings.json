@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "Leetcode-75"
+        "Leetcode-75",
+        "Data Structure and Algorithm Notes"
     ]
 }
