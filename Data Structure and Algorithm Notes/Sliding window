@@ -1,5 +1,3 @@
-class SlidingWindowNotes {
-    /*
 There are basically two types of sliding window:
 
     1. Fixed Size Sliding Window:
@@ -29,7 +27,3 @@ There are basically two types of sliding window:
         3. Find subarray with given sum in an array of non-negative integers
         4. Smallest window that contains all characters of string itself
         5. Maximum Consecutive Ones
-     */
-
-     
-}
