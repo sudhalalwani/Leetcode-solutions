@@ -28,7 +28,7 @@ class Testing{
         // HashSet();       Duplicates:NO,  Maintains order of Insertion: NO,  Sorted:NO
         // TreeSet();       Duplicates:NO,  Maintains order of Insertion: NO,  Sorted:YES
 
-        // HashMap();       Duplicates:YES, Maintains order of Insertion: NO,  Sorted:NO
+        // HashMap();       Duplicates:NO, Maintains order of Insertion: NO,  Sorted:NO
         // TreeMap();       Duplicates:NO,  Maintains order of Insertion: NO,  Sorted:YES
     }
 
@@ -78,7 +78,8 @@ class Testing{
     public static void HashMap(){
         Map<String, String> hashMap = new HashMap<>();
         hashMap.put("A", "B");
-        hashMap.put("B", "B");
+        String s = hashMap.get("A"); //B
+        Boolean a = hashMap.containsKey("A"); //true
         System.out.println(hashMap);
     }
     public static void TreeSet(){
