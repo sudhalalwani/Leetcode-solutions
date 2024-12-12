@@ -1,3 +1,5 @@
+Test
+
 /* NOTE
 	First for loop is to get the number with max number of occurences.
 	Second for loop is used to confirm if that number occured more the N/2 times. 
